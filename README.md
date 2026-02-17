@@ -3,3 +3,7 @@ BTOB-T : Bilateral orchesTrated deep learning graph Kernel framework  based on p
 
 ## Abstract
 Computational predictive models based on a deep learning framework, which have recently been developed, substantially reduced the average time and cost of drug development. However, the molecular heterogeneity of breast cancer presents challenges in extracting representative gene-specific signatures from multi-omics data. In this study, we introduce a novel framework, the Bilateral orchesTrated deep learning framework based on proteogenOmics for drug-repositioning of Breast cancer Treatment (BTOB-T). First, integrated gene representations are extracted using a transformer-based model. After generating a breast cancer network which composed of gene representations and their relations, graph kernel methods are applied to measure dissimilarity scores (“ensemble drug scores”) between the breast cancer network and the perturbed-by-compounds networks. The BTOB-T predictions are verified using clinical trial data, prescribed drug lists, breast cancer phenomics data, and cell viability assays. BTOB-T integrates multi-omics biological dynamics data and the relations between genes, facilitating more accurate prediction of the efficacy of new drugs.
+
+## Data availability
+All data for this study can be found from [Mendeley Data](http://dx.doi.org/10.17632/h8ksb7mynf.1).
+All datasets generated and utilized for this study are comprehensively documented within the manuscript and Supplementary Files.
